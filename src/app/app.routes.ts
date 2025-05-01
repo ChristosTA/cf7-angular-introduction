@@ -6,12 +6,14 @@ import { EventBindExampleComponent } from './components/event-bind-example/event
 import { SimpleDatatableComponent } from './components/simple-datatable/simple-datatable.component';
 import { SimpleDatabaseExampleComponent } from './components/simple-database-example/simple-database-example.component';
 import { ComponentOutputExampleComponent } from './components/component-output-example/component-output-example.component';
+import { TemplateDrivenFormExampleComponent } from './components/template-driven-form-example/template-driven-form-example.component';
 
 export const routes: Routes = [
    { path: 'for-directive-example', component:ForDirectiveExampleComponent},
    { path: 'component-input-example', component: ComponentInputExampleComponent},
    { path: 'component-output-example', component:ComponentOutputExampleComponent},
    { path: 'event-bind-example', component: EventBindExampleComponent},
+   { path: 'template-driven-form-example', component: TemplateDrivenFormExampleComponent},
    { path:'welcome', component: WelcomeComponent },
    {path: 'simple-datatable-example' , component:SimpleDatabaseExampleComponent},
    { path: '', redirectTo:'/welcome', pathMatch:'full' }
